@@ -9,6 +9,15 @@ function myFunction(){
   if (L1<= 0|| L2<=0|| L3<=0){
     text = "Not a triangle, triangles must have a value of more than o"
   }
+  // CONDITION FOR NOT A TRIANGLE
+  else if(
+    (L1 + L2 <= L3 && L2 + L1 <= L3) ||
+    (L1 + L3 <= L2 && L3 + L1 <= L2) ||
+    (L2 + L3 <= L1 && L3 + L2 <= L1)
+  ){
+    text = "Not a triangle"
+  }
+  
 
 
 

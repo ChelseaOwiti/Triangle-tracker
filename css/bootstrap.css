@@ -5091,6 +5091,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   border-radius: 0.3rem;
+  
 }
 
 @media (min-width: 576px) {

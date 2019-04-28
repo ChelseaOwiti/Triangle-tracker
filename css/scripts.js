@@ -17,6 +17,12 @@ function myFunction(){
   ){
     text = "Not a triangle"
   }
+  //  CONDITION FOR AN ISOSCLES TRIANGLE
+  else if(
+    L1=L2 || L1=L3 ||  L2=L1 || L2=L3 || L3=L1 || L3=L2
+  ){
+    text = "This is an Isosceles Triangle"
+  }
   
 
 

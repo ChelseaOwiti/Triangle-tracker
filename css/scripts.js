@@ -37,6 +37,8 @@ function myFunction(){
     text = " a Scalene triangle, no sides are equal"
   }
 
+  alert("This is:" + "["  + Array.join() + "]" + "This is" + text);
+
 
 
 

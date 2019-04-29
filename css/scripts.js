@@ -30,7 +30,12 @@ function myFunction(){
   ){
     text = " an Equilateral triangle, all sides are equal"
   }
-  
+  // CONDITIONS FOR A SCALENE TRIANGLE
+  else if(
+    L1 !==L2 && L2 !==L3 && L3 !==L1
+  ){
+    text = " a Scalene triangle, no sides are equal"
+  }
 
 
 
